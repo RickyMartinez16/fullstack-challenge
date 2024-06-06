@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.boxscore {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team {
+  flex: 1;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.team:last-child {
+  border-right: none;
+}
+
+h2 {
+  margin-top: 0;
+}
